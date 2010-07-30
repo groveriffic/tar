@@ -1,0 +1,11 @@
+
+Reads and understands TAR files.
+Can handle string in memory, IO object, or file path.
+
+I do plan to add write and modify capabilities to this, but I'm in no rush.
+
+The main reason I wrote this is because I'm planning a webservice that will
+receive tar files and parse their contents in memory.
+
+This should work with all versions of ruby, but I've been developing and testing with:
+ruby 1.8.7 (2010-01-10 patchlevel 249) [i486-linux]
